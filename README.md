@@ -10,7 +10,7 @@ OnePixel have 1024 memory cells 0 each
 
 '* = 0-255'
 
-# Functions(RGBA):
+# Functions(RGBA)
 ```
 + = {43,*,*,255}
 - = {45,*,*,255}
@@ -20,7 +20,7 @@ OnePixel have 1024 memory cells 0 each
 , = {44,*,*,255}
 ```
 
-# Example:
+# Example
 
 Hello World! => 
 ![a](https://github.com/KriperPlay/OnePixel/assets/92634754/62bcd2e0-8ea3-4a8d-bf9e-aa7c655d7040)
@@ -29,3 +29,12 @@ Hello World! =>
 * The image file must be .png only
 * Input must be number only
 
+# Need to download
+* python3 and pip
+* PIL/pillow python lib
+* termcolor python lib
+
+# How to run
+```
+python3 onepixel.py [yourfile.png]
+```
